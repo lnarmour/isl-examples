@@ -2,35 +2,24 @@
 
 This repository contains several simple examples of the core functionality available in the integer set library (isl) exposed through the python bindings.
 
-## installation
+## Installation
 
-Minimally, python3 is required.
-On linux, you can refer to the docs here:  
-[https://docs.python.org/3/using/unix.html](https://docs.python.org/3/using/unix.html)
-
-On mac, you can use "homebrew", the macOS package manager to install python3:
+Minimally, python3 is required. See [here](https://docs.python.org/3/using/unix.html) for installation instructions on linux.
+On mac, you can use [homebrew](https://github.com/lnarmour/isl-examples), the macOS package manager, to install python:
 ```
 brew install python3
 ```
 
-### set up a virtual environment
+### Set up a virtual environment
 
-Create a new virtual environment with the following command:
+Create a new virtual environment, activate it, and install the necessary dependencies with the following commands:
 ```
 python3 -mvenv virtual-islpy
-```
-
-Activate the environment:
-```
 source virtual-islpy/bin/activate
-```
-
-Install the dependencies (jupyter notebook, isl, etc):
-```
 pip install -r requirements.txt
 ```
 
-## jupyter notebook
+## Jupyter notebook
 
 With the virtual environment activated as described above, launch the notebook app with the following command:
 ```
