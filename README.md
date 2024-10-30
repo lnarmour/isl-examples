@@ -10,7 +10,7 @@ On mac, you can use [homebrew](https://github.com/lnarmour/isl-examples), the ma
 brew install python3
 ```
 
-### Set up a virtual environment
+## Set up a virtual environment
 
 Create a new virtual environment, activate it, and install the necessary dependencies with the following commands:
 ```
