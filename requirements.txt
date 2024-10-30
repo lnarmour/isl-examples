@@ -1,0 +1,4 @@
+matplotlib==3.9.2
+numpy==2.1.2
+notebook==7.2.2
+islpy==2024.2
