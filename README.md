@@ -28,3 +28,4 @@ jupyter notebook
 
 This should open a web page in your default browser with a view of the files in the current working directory.
 From here you can create and interact with jupyter notebooks using the web GUI.
+The [examples.ipynb](./examples.ipynb) notebook file has several examples and demos.
